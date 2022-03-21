@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c188cb8.css",
-    "main.js": "/static/js/main.13701e4c.js",
-    "static/media/Hero.png": "/static/media/Hero.0bc7e519f9b176e7dc6c.png",
-    "static/media/contact.png": "/static/media/contact.e98524bf74c8cd9efb09.png",
-    "static/media/home2.png": "/static/media/home2.18cebe2620080cfdab77.png",
-    "static/media/faqs.png": "/static/media/faqs.7b309d2d74ad865b3eb7.png",
-    "static/media/home1.png": "/static/media/home1.8e51400b3ac9a6a86a27.png",
-    "static/media/roadmap.png": "/static/media/roadmap.428da2059935e35903b0.png",
-    "static/media/karl__team.png": "/static/media/karl__team.cebe76de4e3ea8198bc3.png",
-    "static/media/rita__team.png": "/static/media/rita__team.57eff61ecb2b35bd6b98.png",
-    "static/media/nabil__team.png": "/static/media/nabil__team.745e6aaa7abd4e6522d2.png",
-    "static/media/roadmapphonee.png": "/static/media/roadmapphonee.b7e16113ec9fc297c7be.png",
-    "static/media/logo.png": "/static/media/logo.df1bab0725d1fd5b2167.png",
-    "index.html": "/index.html",
-    "main.4c188cb8.css.map": "/static/css/main.4c188cb8.css.map",
-    "main.13701e4c.js.map": "/static/js/main.13701e4c.js.map"
+    "main.css": "/Virtuarld/static/css/main.4c188cb8.css",
+    "main.js": "/Virtuarld/static/js/main.6196ac68.js",
+    "static/media/Hero.png": "/Virtuarld/static/media/Hero.0bc7e519f9b176e7dc6c.png",
+    "static/media/contact.png": "/Virtuarld/static/media/contact.e98524bf74c8cd9efb09.png",
+    "static/media/home2.png": "/Virtuarld/static/media/home2.18cebe2620080cfdab77.png",
+    "static/media/faqs.png": "/Virtuarld/static/media/faqs.7b309d2d74ad865b3eb7.png",
+    "static/media/home1.png": "/Virtuarld/static/media/home1.8e51400b3ac9a6a86a27.png",
+    "static/media/roadmap.png": "/Virtuarld/static/media/roadmap.428da2059935e35903b0.png",
+    "static/media/karl__team.png": "/Virtuarld/static/media/karl__team.cebe76de4e3ea8198bc3.png",
+    "static/media/rita__team.png": "/Virtuarld/static/media/rita__team.57eff61ecb2b35bd6b98.png",
+    "static/media/nabil__team.png": "/Virtuarld/static/media/nabil__team.745e6aaa7abd4e6522d2.png",
+    "static/media/roadmapphonee.png": "/Virtuarld/static/media/roadmapphonee.b7e16113ec9fc297c7be.png",
+    "static/media/logo.png": "/Virtuarld/static/media/logo.df1bab0725d1fd5b2167.png",
+    "index.html": "/Virtuarld/index.html",
+    "main.4c188cb8.css.map": "/Virtuarld/static/css/main.4c188cb8.css.map",
+    "main.6196ac68.js.map": "/Virtuarld/static/js/main.6196ac68.js.map"
   },
   "entrypoints": [
     "static/css/main.4c188cb8.css",
-    "static/js/main.13701e4c.js"
+    "static/js/main.6196ac68.js"
   ]
 }
