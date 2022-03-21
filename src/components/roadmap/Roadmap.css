@@ -1,0 +1,38 @@
+.section__roadmap {
+    box-shadow: inset 0 15px 9px -7px rgba(0, 0, 0, 0.4);
+}
+
+.roadmap__container {
+    display: block;
+    text-align: center;
+}
+
+.roadmap__container h1 {
+    text-transform: uppercase;
+    padding-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.roadmap__container h3 {
+    padding-top: 4rem;
+    /*
+    padding-bottom: 2rem;*/
+}
+
+.roadmap__container img {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.phoneimg {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .phoneimg {
+        display: block;
+    }
+    .desktopimg {
+        display: none;
+    }
+}

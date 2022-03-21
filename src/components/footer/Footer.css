@@ -1,0 +1,23 @@
+hr {
+    width: 80%;
+    border-top: 1px solid white;
+    align-items: center;
+    margin: 5rem auto 2rem;
+}
+
+.words {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.words img {
+    width: 80px;
+    text-align: center;
+    margin: auto;
+}
+
+.words .footer__right {
+    text-align: right;
+}

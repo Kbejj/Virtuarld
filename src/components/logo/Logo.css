@@ -1,0 +1,12 @@
+.logo {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.logo__img {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}

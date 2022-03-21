@@ -1,0 +1,63 @@
+.about2__container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 4rem;
+    align-items: center;
+    height: fit-content;
+}
+
+.about2__right h3 {
+    margin-bottom: 2rem;
+}
+
+.about2__right h3 span {
+    font-weight: bolder;
+}
+
+.about2__right h4 {
+    padding-left: 1rem;
+}
+
+.about2__right ul li {
+    margin-bottom: 1rem;
+}
+
+.about2__right ul li:nth-child(3) {
+    margin-bottom: 2rem;
+}
+
+.about2__left {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.about2__left img {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* ====================== MEDIA QUERIES (TABLET) ============*/
+
+@media screen and (max-width: 1024px) {
+    .about2__container {
+        align-items: center;
+    }
+}
+
+
+/* ====================== MEDIA QUERIES (PHONE) ============*/
+
+@media screen and (max-width: 600px) {
+    .about2__container {
+        display: inline;
+        margin: 0 auto;
+    }
+    .about2__left {
+        display: none;
+    }
+    .about2__right {
+        text-align: center;
+        padding-top: 2rem;
+    }
+}

@@ -1,0 +1,147 @@
+header {
+    height: fit-content;
+    /*padding-top: 7rem;*/
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.header__container h1 {
+    margin-bottom: 0.2rem;
+    line-height: 2.5rem;
+}
+
+.hero {
+    margin-top: 8rem;
+}
+
+.logo__img {
+    width: 20%;
+    margin-top: -5rem;
+    text-align: center;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 3rem;
+}
+
+.hero .left__col {
+    text-align: left;
+    margin-right: 2rem;
+}
+
+.hero .left__col .virtuarld {
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+    font-size: 2.6rem;
+}
+
+
+/*==================== SOCIALS =================*/
+
+.icons__socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.socials h3 {
+    margin-top: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.icons__socials a:hover {
+    transform: scale(1.1);
+}
+
+
+/*==================== SOCIALS =================*/
+
+
+/*
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: -4rem;
+    bottom: 3rem;
+
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+*/
+
+
+/*==================== SCROLL =================*/
+
+.scroll__down {
+    position: absolute;
+    right: -4rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.scroll__down::after {
+    content: "";
+    border: solid var(--color-primary);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+/* ====================== MEDIA QUERIES (TABLET) ============*/
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        align-items: center;
+    }
+}
+
+
+/* ====================== MEDIA QUERIES (PHONE) ============*/
+
+@media screen and (max-width: 600px) {
+    .hero {
+        display: inline-block;
+        margin-top: 2rem;
+    }
+    .hero .left__col {
+        text-align: center;
+        margin-right: 0 !important;
+    }
+    .logo__img {
+        width: 50%;
+    }
+    .socials h3 {
+        margin-top: 1rem;
+    }
+    .icons__socials {
+        margin-top: 1rem;
+        margin-bottom: 0.8rem;
+    }
+    .scroll__down {
+        bottom: 12rem;
+    }
+}
